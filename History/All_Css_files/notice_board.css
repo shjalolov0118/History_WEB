@@ -1,0 +1,41 @@
+/* 이페이지는 게시판 페이지예요 */
+body, h1, h2, h3 ,ul, p {
+    margin: 0;
+    padding: o;
+}
+  
+/* starting notice_board nawbar */
+#header {
+    background-color: #35424a;
+}
+#header h1 {
+    color: #fff;
+    font-family: sans-serif;
+    padding: 15px 0;
+    display: inline-block;
+}
+#header .logo {
+    color: coral;
+}
+.nawbar {
+    float: right;
+}
+.nawbar li {
+    display: inline;
+}
+.nawbar li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 25px 15px;
+    display: inline-block;
+}
+.nawbar li a:hover {
+    color: burlywood;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+/* ending notice_board nawbar */
+

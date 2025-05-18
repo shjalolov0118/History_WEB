@@ -1,0 +1,66 @@
+body, h1, h2, h3 ,ul, p {
+  margin: 0;
+  padding: o;
+}
+
+/* starting main nawbar */
+#header {
+  background-color: #35424a;
+}
+#header h1 {
+  color: #fff;
+  font-family: sans-serif;
+  padding: 15px 0;
+  display: inline-block;
+}
+#header .logo {
+  color: coral;
+}
+.nawbar {
+  float: right;
+}
+.nawbar li {
+  display: inline;
+}
+.nawbar li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: sans-serif;
+  padding: 25px 15px;
+  display: inline-block;
+}
+.nawbar li a:hover {
+  color: burlywood;
+}
+.container {
+  width: 90%;
+  margin: auto;
+
+}
+/* starting signup-login */
+.signup {
+  background-color: coral;
+  padding: 13px;
+  border-radius: 10px;
+  font-size: larger;
+  margin: 5px;
+}
+.login {
+  background-color: coral;
+  padding: 13px 20px 13px 20px;
+  border-radius: 10px;
+  font-size: larger;
+}
+/* ending signup-login */
+/* endting main nawbar too */
+
+/* starting main page up */
+/* ending main page up */
+
+/* starting main page down */
+/* ending main page down */
+
+/* starting main page footer */
+/* ending main page footer */
+
+
