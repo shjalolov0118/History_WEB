@@ -7,7 +7,7 @@
   
   /* starting signup page */
   body {
-    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    background: linear-gradient(to right, #667eea, #764ba2);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -50,7 +50,7 @@
   .signup-btn {
     width: 100%;
     padding: 0.75rem;
-    background-color: #ff758c;
+    background-color: #667eea;
     color: white;
     border: none;
     border-radius: 8px;
@@ -61,9 +61,8 @@
   }
   
   .signup-btn:hover {
-    background-color: #ff5e78;
+    background-color: #5a67d8;
   }
-  
   .footer {
     text-align: center;
     margin-top: 1rem;
@@ -71,7 +70,7 @@
   }
   
   .footer a {
-    color: #ff758c;
+    color: #667eea;
     text-decoration: none;
   }
   

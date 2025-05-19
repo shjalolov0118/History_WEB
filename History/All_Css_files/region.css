@@ -38,3 +38,73 @@ body, h1, h2, h3 ,ul, p {
     margin: auto;
 }
 /* ending region nawbar */
+
+/* starting region page footer */
+footer {
+    background-color: #35424a;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  .footer-container {
+    width: 100%;
+    margin: auto;
+    padding-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: large;
+  }
+  
+  .footer-column {
+    flex: 1;
+  }
+  
+  .footer-column h3 {
+    padding-left: 23px;
+    display: flex;
+    margin: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: coral;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-column ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .footer-column ul li a:hover {
+    color: coral;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    border-top: 1px solid coral;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-column {
+      margin: 20px 0;
+    }
+  }
+  /* ending region page footer */
