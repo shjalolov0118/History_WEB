@@ -2,6 +2,7 @@ body, h1, h2, h3 ,ul, p {
   margin: 0;
   padding: o;
   box-sizing: border-box;
+  
 }
 
 /* starting main_container */
@@ -11,6 +12,7 @@ body, h1, h2, h3 ,ul, p {
   background-color: #fffff0ab;
   /* background-color: white; */
 
+ 
 }
 /* ending main_container */
 
@@ -66,6 +68,80 @@ body, h1, h2, h3 ,ul, p {
 /* endting main nawbar */
 
 /* starting main page up */
+.main_up_body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Apple SD Gothic Neo', sans-serif;
+  /* background-color: #f9f9ed; */
+  /* background-color: red; */
+  color: #5a2a00;
+}
+
+.main_up_container {
+  /* background-color: green; */
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 90px;
+  gap: 40px;
+}
+
+.main_up_text-section {
+  max-width: 50%;
+}
+
+.main_up_subtitle {
+  font-size: 14px;
+  color: #6c7a4f;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.main_up_title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.main_up_description {
+  font-size: 18px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.main_up_image-section {
+  position: relative;
+  width: 600px;
+  /* width: 50%; */
+  height: 400px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.main_up_carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.main_up_carousel-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.main_up_carousel-image.main_up_active {
+  opacity: 1;
+}
+
+
 /* ending main page up */
 
 /* starting main search center line */

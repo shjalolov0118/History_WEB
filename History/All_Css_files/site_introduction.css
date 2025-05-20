@@ -39,11 +39,63 @@ body, h1, h2, h3 ,ul, p {
 }
 /* ending site_introduction nawbar */
 
+/* starting site introduction page main */
+.site_introduction_page_main_body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f4f8;
+  color: #333;
+}
+
+.site_introduction_main_page_container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.site_introduction_main_page_header {
+  text-align: center;
+  background-color: #4b7bec;
+  color: white;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.site_introduction_main_page_intro,
+.site_introduction_main_page_features {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.site_introduction_main_page_intro h2,
+.site_introduction_main_page_features h2 {
+  color: #4b7bec;
+}
+
+.site_introduction_main_page_features ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.site_introduction_main_page_footer {
+  text-align: center;
+  color: #777;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+/* ending site introduction page main */
+
 /* starting site_introduction page footer */
 footer {
     background-color: #35424a;
     color: #fff;
-    position: fixed;
+    position: static;
     bottom: 0;
     left: 0;
     width: 100%;

@@ -5,7 +5,6 @@ body, h1, h2, h3 ,ul, p {
     box-sizing: border-box;
 
   }
-    
   /* starting call senter nawbar */
   #header {
     background-color: #35424a;
@@ -41,11 +40,89 @@ body, h1, h2, h3 ,ul, p {
   }
   /* ending call senter nawbar */
 
+/* starting call center main page */
+.call_center_main_page_body {
+  /* background-color: #fffff0ab; */
+  width: 1000px;
+  margin: auto;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.call_center_main_page_info {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.call_center_main_page_info ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.call_center_main_page_info li {
+  margin-bottom: 10px;
+}
+
+.call_center_main_page_contact-form {
+  background: #fff;
+  /* background-color: #67636360; */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.call_center_main_page_contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.call_center_main_page_contact-form label {
+  margin: 10px 0 5px;
+}
+
+.call_center_main_page_contact-form input,
+.call_center_main_page_contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.call_center_main_page_contact-form button {
+  margin-top: 15px;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.call_center_main_page_contact-form button:hover {
+  background-color: #0056b3;
+}
+
+/* ending call center main page */
+
 /* starting call senter page footer */
 footer {
   background-color: #35424a;
   color: #fff;
-  position: fixed;
+  /* position: fixed; */
+  position: static;
   bottom: 0;
   left: 0;
   width: 100%;
