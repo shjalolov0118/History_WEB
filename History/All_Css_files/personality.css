@@ -38,12 +38,20 @@ body, h1, h2, h3 ,ul, p {
   margin: auto;
 }
 /* ending personality nawbar */
+.personality_page_main_head {
+  width: 1000px;
+  margin: auto;
+  background-color: red;
+
+}
 
 /* starting personality page footer */
 footer {
   background-color: #35424a;
   color: #fff;
-  position: fixed;
+  /* position: fixed; */
+  position: static;
+
   bottom: 0;
   left: 0;
   width: 100%;
@@ -63,7 +71,7 @@ footer {
 }
 
 .footer-column h3 {
-  padding-left: 23px;
+  padding-left: 20px;
   display: flex;
   margin: 15px;
   text-align: center;
