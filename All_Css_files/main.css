@@ -1,0 +1,332 @@
+body, h1, h2, h3 ,ul, p {
+  margin: 0;
+  padding: o;
+  box-sizing: border-box;
+  
+}
+
+/* starting main_container */
+.main_container {
+  /* background-color: #fff; */
+  /* background-color: red; */
+  background-color: #fffff0ab;
+  /* background-color: white; */
+
+ 
+}
+/* ending main_container */
+
+/* starting main nawbar */
+/* #header {
+  background-color: #35424a;
+} */
+
+/* new start */
+#header {
+  background-color: #35424a;
+
+  /*SHU YERLARNI QO‘SHING */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* ixtiyoriy */
+}
+
+/* new ending */
+#header h1 {
+  color: #fff;
+  font-family: sans-serif;
+  padding: 15px 0;
+  display: inline-block;
+}
+#header .logo {
+  color: coral;
+}
+.nawbar {
+  float: right;
+}
+.nawbar li {
+  display: inline;
+}
+.nawbar li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: sans-serif;
+  padding: 25px 15px;
+  display: inline-block;
+}
+.nawbar li a:hover {
+  color: burlywood;
+}
+.container {
+  width: 90%;
+  margin: auto;
+
+}
+/* starting signup-login */
+.signup {
+  background-color: coral;
+  padding: 13px;
+  border-radius: 10px;
+  font-size: larger;
+  margin: 5px;
+}
+.login {
+  background-color: coral;
+  padding: 13px 20px 13px 20px;
+  border-radius: 10px;
+  font-size: larger;
+}
+/* ending signup-login */
+/* endting main nawbar */
+
+/* starting main page up */
+.main_up_body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Apple SD Gothic Neo', sans-serif;
+  /* background-color: #f9f9ed; */
+  /* background-color: red; */
+  color: #5a2a00;
+}
+
+.main_up_container {
+  /* background-color: green; */
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 90px;
+  gap: 40px;
+}
+
+.main_up_text-section {
+  max-width: 50%;
+}
+
+.main_up_subtitle {
+  font-size: 14px;
+  color: #6c7a4f;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.main_up_title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.main_up_description {
+  font-size: 18px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.main_up_image-section {
+  position: relative;
+  width: 600px;
+  /* width: 50%; */
+  height: 400px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.main_up_carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.main_up_carousel-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.main_up_carousel-image.main_up_active {
+  opacity: 1;
+}
+
+
+/* ending main page up */
+
+/* starting main search center line */
+#main_search{
+  background-color: #35424a;
+  color: coral;
+
+  font-family: sans-serif;
+  padding: 10px 0;
+  display: inline-block;
+  width: 100%;
+}
+#main_search .left {
+  float: left;
+}
+
+#main_search .right {
+  float: right;
+}
+#main_search .input {
+  padding: 5px 200px;
+  color: black;
+  padding-left: 10px;
+}
+
+.button {
+  padding: 6px 15px;
+  border: none;
+  background-color: coral;
+  color: #fff;
+  margin-left: 5px;
+  cursor: pointer;
+  font-size: larger;
+}
+#main_search .button:hover {
+  color: burlywood;
+}
+/* ending main search center line */
+
+/* starting main page down */
+/* starting main page down img_slideshow */
+
+.slide img { /* Rasmning konteynerga to'liq moslashishi */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  margin: auto;
+  max-width: 1000px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  animation: fadeAnimation 36s infinite;
+}
+/* Faqat 1ta slayd 3.6s davomida ko‘rinadi, qolgan vaqtda yashirin bo‘ladi */
+@keyframes fadeAnimation {
+  0% { opacity: 0; }
+  5% { opacity: 1; }
+  10% { opacity: 1; }
+  15% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+/* 10 ta slayd uchun delay (3.6s interval bilan) */
+.slide:nth-child(1) { animation-delay: 0s; }
+.slide:nth-child(2) { animation-delay: 3.6s; }
+.slide:nth-child(3) { animation-delay: 7.2s; }
+.slide:nth-child(4) { animation-delay: 10.8s; }
+.slide:nth-child(5) { animation-delay: 14.4s; }
+.slide:nth-child(6) { animation-delay: 18s; }
+.slide:nth-child(7) { animation-delay: 21.6s; }
+.slide:nth-child(8) { animation-delay: 25.2s; }
+.slide:nth-child(9) { animation-delay: 28.8s; }
+.slide:nth-child(10) { animation-delay: 32.4s; }
+/* ending main page down img_slideshow */
+
+/* starting main page down map */
+.container_map {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 600px;
+  margin: auto;
+  max-width: 1000px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+} 
+/* ending main page down map */
+/* ending main page down */
+
+/* starting main page footer */
+footer {
+  background-color: #35424a;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.footer-container {
+  width: 100%;
+  margin: auto;
+  padding-left: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: x-large;
+}
+
+.footer-column {
+  flex: 1;
+}
+
+.footer-column h3 {
+  padding-left: 23px;
+  display: flex;
+  margin: 15px;
+  text-align: center;
+  font-size: 25px;
+  color: coral;
+}
+
+.footer-column ul {
+  list-style: none;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-column ul li a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+  border-top: 1px solid coral;
+  margin-top: 30px;
+  font-size: 14px;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-column {
+    margin: 20px 0;
+  }
+}
+
+/* ending main page footer */
